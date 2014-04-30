@@ -1,0 +1,35 @@
+/************************
+HEADER
+*************************/
+
+@media screen and (min-width: 660px) {
+
+  .profile-photo {
+    float: left;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .headline, .sub-headline {
+    float: left;
+    text-align: left;
+    font-size: 2.5em;
+  }
+
+  nav {
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+  }
+
+  header {
+    margin-bottom: 60px;
+  }
+
+  article{
+    clear: both;
+  }
+
+}

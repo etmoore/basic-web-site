@@ -1,0 +1,116 @@
+/************************
+GENERAL
+*************************/
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+
+/************************
+HEADING
+*************************/
+
+header {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headline {
+  font-size: 3.5em;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.sub-headline {
+  font-size: 2em;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  padding: 10px 0 0 0;
+}
+
+
+
+/************************
+NAVIGATION
+*************************/
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.25em;
+  margin: 0 7px 0 7px;
+}
+
+nav a {
+  padding: 15px 10px;
+  color: #fff27f;
+}
+
+
+/************************
+BODY
+*************************/
+
+sidebar li {
+  list-style: none;
+}
+
+
+
+
+/************************
+FOOTER
+*************************/
+
+footer {
+  font-size: .75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/************************
+COLORS
+*************************/
+
+header{
+  background-color: #1989FF;
+}
