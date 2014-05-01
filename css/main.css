@@ -16,6 +16,12 @@ a {
   padding: 0 5%;
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 /************************
@@ -25,19 +31,27 @@ HEADING
 header {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
+  border-bottom: solid #0942E8 8px;
+  padding: 0 0 20px 0;
 }
 
-.headline {
+.head-wrap {
+  max-width: 940px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.blurb {
   text-align: center;
   margin: -15px 0 0 0;
 }
 
-.headline h1 {
+.blurb h1 {
   font-size: 3.5em;
   line-height: 0.8em;
 }
 
-.headline h2 {
+.blurb h2 {
   font-size: 2em;
   margin: -30px 0 10px 0;
 }
@@ -63,7 +77,7 @@ nav {
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
+  margin: -5px 10px 0;
   padding: 0;
 }
 
@@ -75,18 +89,13 @@ nav li {
 
 nav a {
   padding: 15px 10px;
-  color: #fff27f;
 }
+
 
 
 /************************
 BODY
 *************************/
-
-sidebar li {
-  list-style: none;
-}
-
 
 
 
@@ -115,5 +124,9 @@ COLORS
 *************************/
 
 header{
-  background-color: #1989FF;
+  background: #1989FF;
+}
+
+nav a {
+  color: #fff27f;
 }
